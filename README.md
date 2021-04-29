@@ -1,5 +1,5 @@
 # StylesheetHelper
-StylesheetHelper is simple command line tool for generation of code for UI styling using Stylesheet library. The input of StylesheetHelper is CSS style of some element in Figma, the output is the style converted to Swift
+StylesheetHelper is a simple command-line tool for the generation of code for UI styling using the Stylesheet library. The input of StylesheetHelper is CSS style of some element in Figma, the output is the style converted to Swift
 
 
 <p align="center">
@@ -14,7 +14,7 @@ StylesheetHelper is simple command line tool for generation of code for UI styli
 
 [Homebrew](https://brew.sh) is a favorite package manager for Mac:
 
-This is prefered installation method. For installation type in your shell:
+This is the preferred installation method. For installation type in your shell:
 ```bash
 $ brew install DanielCech/scripts/codetemplater
 ```
@@ -22,7 +22,7 @@ $ brew install DanielCech/scripts/codetemplater
 
 ## Usage
 * After installation is `stylesheethelper` located in `/usr/local/bin`
-* Call `stylesheethelper` from shell in root of your project
+* Call `stylesheethelper` from the shell at the root of your project
 * You will be asked for paste of Figma CSS
 * Then enter `zzz` as separator (It is silly, I know :-))
 * The result is printed and copied to clipboard at the same time
